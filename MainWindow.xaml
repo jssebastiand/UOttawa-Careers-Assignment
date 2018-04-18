@@ -1,0 +1,56 @@
+<Window x:Class="CareersCOMPLETE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CareersCOMPLETE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <ScrollViewer>
+        <Grid>
+            <TabControl MinWidth="525">
+                <TabItem Header="College" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="University of Ottawa"   HorizontalAlignment="Center" FontSize="70"/>
+                        <Image Source="https://pbs.twimg.com/profile_images/918128918670045184/zJwYjkyj_400x400.jpg" Width="200"/>
+                    </StackPanel>
+                </TabItem>
+          
+            
+                <TabItem Header="Course Code and Name" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="CSI 1306 Computing Concepts for Business" HorizontalAlignment="Center" FontFamily="Comic Sans" FontSize="70"/>
+                        <Image Source="https://image.slideserve.com/821064/csi-1306-e-computing-concepts-for-business-t.jpg" Width="200"/>
+                    </StackPanel>
+                </TabItem>
+            
+           
+                <TabItem Header="Number of Students in UOttawa" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="42,587 students (Sorry, I couldn't find how many students are in the specific program..."/>
+                        <Image Source="https://lh3.googleusercontent.com/-WM6W73GGz1E/WtY7XGKZV9I/AAAAAAAABpU/Y_C_fUXEIOc7j-1zrnHJ85IvaFRSQTrLwCL0BGAs/w530-d-h424-n-rw/42587.png"/>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Level of Competetiveness" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="This program is fairly competetive. I would give it a 6/10 for competetiveness"/>
+                        <Image Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTses5eeuSTgDM8jOir-x6Y8aByhW8M427wshoniACF0KdAPnjl"/>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Course Components" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="This Course is a mixture of Lecture, and Laboratory work."/>
+                    </StackPanel>
+                    </TabItem>
+                <TabItem Header="Campus Information" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="UOttawa is located in Ottawa, Ontario. According to their website, UOttawa's values are: Over the coming decade, the University of Ottawa will be launching key initiatives that relate directly to its core values."/>
+                    </StackPanel>
+                    </TabItem>
+                    
+            </TabControl>
+        </Grid>
+    </ScrollViewer>
+</Window>
+    
